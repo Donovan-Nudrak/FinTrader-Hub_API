@@ -1,11 +1,15 @@
 # FinTrader Hub API
 
-[Python](https://www.python.org/)
-[FastAPI](https://fastapi.tiangolo.com/)
-[PostgreSQL](https://www.postgresql.org/)
-[Redis](https://redis.io/)
-[Celery](https://docs.celeryq.dev/)
-[License: MIT](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Redis](https://img.shields.io/badge/Redis-7-DC382D?logo=redis&logoColor=white)](https://redis.io/)
+[![Celery](https://img.shields.io/badge/Celery-5.4+-37814A?logo=celery&logoColor=white)](https://docs.celeryq.dev/)
+[![Resend](https://img.shields.io/badge/Resend-Email-000000?logo=resend&logoColor=white)](https://resend.com/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://docs.docker.com/compose/)
+[![pytest](https://img.shields.io/badge/pytest-8.3+-0A9EDC?logo=pytest&logoColor=white)](https://docs.pytest.org/)
+
+
 
 Production-oriented backend for personal trading portfolio management. Built with **FastAPI**, **PostgreSQL**, **Redis**, and **Celery**, featuring JWT authentication, real-time market data ingestion, risk analytics, alerting, and a modular domain architecture.
 
