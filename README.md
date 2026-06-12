@@ -13,8 +13,6 @@
 
 Production-oriented backend for personal trading portfolio management. Built with **FastAPI**, **PostgreSQL**, **Redis**, and **Celery**, featuring JWT authentication, real-time market data ingestion, risk analytics, alerting, and a modular domain architecture.
 
-> **Scope:** This repository contains the **backend API only**. Frontend clients are out of scope.
-
 ---
 
 ## Table of Contents
