@@ -441,7 +441,7 @@ Unauthenticated requests to protected routes return **401 Unauthorized**.
 
 | Access    | Examples                                                                                                                  |
 | --------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Public    | `GET /health`, `GET /assets`, `GET /market/prices/`*, `GET /market/news/*`                                                |
+| Public    | `GET /health`, `GET /assets`, `GET /market/prices/`, `GET /market/news/*`                                                |
 | Protected | `POST /assets`, `POST /market/prices/fetch`, all `/portfolios/*`, `/trades/*`, `/alerts/*`, `/settings/*`, `/dashboard/*` |
 
 
