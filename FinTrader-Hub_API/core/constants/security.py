@@ -1,0 +1,4 @@
+TOKEN_TYPE_CLAIM = "type"
+SUBJECT_CLAIM = "sub"
+ISSUED_AT_CLAIM = "iat"
+EXPIRATION_CLAIM = "exp"

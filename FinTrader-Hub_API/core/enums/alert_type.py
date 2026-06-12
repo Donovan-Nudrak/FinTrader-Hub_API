@@ -1,0 +1,9 @@
+from enum import StrEnum
+
+
+class AlertType(StrEnum):
+    PRICE = "PRICE"
+    PORTFOLIO_VALUE = "PORTFOLIO_VALUE"
+    PORTFOLIO_PNL = "PORTFOLIO_PNL"
+    DRAWDOWN = "DRAWDOWN"
+    CONCENTRATION = "CONCENTRATION"

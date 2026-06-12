@@ -1,0 +1,49 @@
+# Secrets and local environment — never bake into image layers
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+credentials.json
+credentials/
+*.secret
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Version control
+.git/
+.gitignore
+
+# Internal docs (not needed in runtime image)
+docs/
+
+# Celery local state
+celerybeat-schedule
+celerybeat-schedule.db
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

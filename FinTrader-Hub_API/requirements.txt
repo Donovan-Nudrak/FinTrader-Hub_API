@@ -1,0 +1,17 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+sqlalchemy==2.0.36
+alembic==1.14.0
+psycopg2-binary==2.9.10
+redis==5.2.1
+celery==5.4.0
+pydantic-settings==2.6.1
+email-validator==2.2.0
+python-dotenv==1.0.1
+pyjwt==2.10.1
+bcrypt==4.2.1
+pytest==8.3.4
+pytest-cov==6.0.0
+httpx==0.28.1
+resend==2.6.0
+cryptography==44.0.0
